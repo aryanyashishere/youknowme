@@ -1,4 +1,4 @@
-import { gsap } from "gsap"
+
 
 tl = gsap.timeline()
 tl.from("nav h1", {
