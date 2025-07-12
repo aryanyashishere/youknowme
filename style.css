@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'japan';
+  src: url('./NeueMachina-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer utilities{
+  .part2 h4{
+    @apply font-bold;
+  }
+
+  .img-h{
+    @apply h-[90px];
+  }
+
+  .elem{
+    @apply flex-shrink-0 h-[220px] w-[48%] border-[2px] border-solid border-black rounded-[20px]  p-[28px] flex;
+  }
+
+  .black{
+    @apply bg-black;
+  }
+
+  .marquee{
+    @apply flex flex-shrink-0 px-10;
+  }
+
+ 
+  }
+
+   .shadow-bottom {
+    box-shadow: 0 10px 5px 0  rgba(0, 0, 0, .8); /* bottom-only shadow */
+  }
+/* 
+.marquee{
+      transform: translateX(-200%);
+
+} */
+
+.marquee-track{
+  transform: translateX(-100%);
+}
+
+  .marq{
+    transform: translateX(-100%);
+  }
